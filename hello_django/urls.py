@@ -20,6 +20,6 @@ from django.conf.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
-urllpatterns = [
+urllpatterns += [
     path('', include('myhello.urls'))
 ]
